@@ -16,6 +16,9 @@
 		00042BC92718095E00BF45FB /* ios_parallax_viewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00042BC82718095E00BF45FB /* ios_parallax_viewTests.swift */; };
 		00042BD32718095E00BF45FB /* ios_parallax_viewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00042BD22718095E00BF45FB /* ios_parallax_viewUITests.swift */; };
 		00042BD52718095E00BF45FB /* ios_parallax_viewUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00042BD42718095E00BF45FB /* ios_parallax_viewUITestsLaunchTests.swift */; };
+		00042BE227186DAE00BF45FB /* MainViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00042BE127186DAE00BF45FB /* MainViewModel.swift */; };
+		00042BE427186DCD00BF45FB /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00042BE327186DCD00BF45FB /* ViewModel.swift */; };
+		00042BE627186DF100BF45FB /* UIScrollView+TopBottom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00042BE527186DF100BF45FB /* UIScrollView+TopBottom.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		00042BCE2718095E00BF45FB /* ios-parallax-viewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-parallax-viewUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		00042BD22718095E00BF45FB /* ios_parallax_viewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_parallax_viewUITests.swift; sourceTree = "<group>"; };
 		00042BD42718095E00BF45FB /* ios_parallax_viewUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ios_parallax_viewUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		00042BE127186DAE00BF45FB /* MainViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewModel.swift; sourceTree = "<group>"; };
+		00042BE327186DCD00BF45FB /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		00042BE527186DF100BF45FB /* UIScrollView+TopBottom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIScrollView+TopBottom.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,7 +107,10 @@
 			children = (
 				00042BB12718095C00BF45FB /* AppDelegate.swift */,
 				00042BB32718095C00BF45FB /* SceneDelegate.swift */,
+				00042BE127186DAE00BF45FB /* MainViewModel.swift */,
+				00042BE327186DCD00BF45FB /* ViewModel.swift */,
 				00042BB52718095C00BF45FB /* ViewController.swift */,
+				00042BE527186DF100BF45FB /* UIScrollView+TopBottom.swift */,
 				00042BB72718095C00BF45FB /* Main.storyboard */,
 				00042BBA2718095D00BF45FB /* Assets.xcassets */,
 				00042BBC2718095D00BF45FB /* LaunchScreen.storyboard */,
@@ -258,9 +267,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00042BE627186DF100BF45FB /* UIScrollView+TopBottom.swift in Sources */,
+				00042BE427186DCD00BF45FB /* ViewModel.swift in Sources */,
 				00042BB62718095C00BF45FB /* ViewController.swift in Sources */,
 				00042BB22718095C00BF45FB /* AppDelegate.swift in Sources */,
 				00042BB42718095C00BF45FB /* SceneDelegate.swift in Sources */,
+				00042BE227186DAE00BF45FB /* MainViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
